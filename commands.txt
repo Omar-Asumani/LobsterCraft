@@ -1,0 +1,4 @@
+root@azeroth:~/azerothcore-wotlk# find . -type f -name "*.log"
+root@azeroth:~/azerothcore-wotlk# ls -lh ./env/dist/bin/*.log
+root@azeroth:~/azerothcore-wotlk# watch -n 5 'ls -lh ./env/dist/bin/*.log'
+root@azeroth:~/azerothcore-wotlk# tail -n 50 ./env/dist/bin/Errors.log
